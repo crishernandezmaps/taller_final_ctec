@@ -41,12 +41,12 @@ Los datos corresponden a 93 datasets divididos en 8 tablas generales:
 
 Cada una de estas tablas han sido separadas en hojas para la construcción de los datasets finales. Estas tablas de entrada son del tipo ‘Excel’. Para cada una de las tablas antes mencionadas se ha creado una sección dentro de la plataforma una serie de scripts en el lenguaje de programación Python, utilizando la herramienta Jupyter Notebook, que facilita una interfaz gráfica amigable de la terminal del computador.
 
-• S1_Destacados.ipynb
-• S2_Macroindicadores.ipynb
-• S3_Sustentabilidad.ipynb
-• S4_Inmobiliario_habitacional.ipynb • S5_BIM_Innovacion.ipynb
-• S6_Seguridad.ipynb
-• S7_CChC.ipynb
+- S1_Destacados.ipynb
+- S2_Macroindicadores.ipynb
+- S3_Sustentabilidad.ipynb
+- S4_Inmobiliario_habitacional.ipynb • S5_BIM_Innovacion.ipynb
+- S6_Seguridad.ipynb
+- S7_CChC.ipynb
 
 Lo que realiza cada uno de estos notebooks es tomar la data de ingreso (archivos excel), procesarlos mediante una serie de funciones y generar el formato final con toda la información relacionada para indicador. El formato de salida de los datos, siempre es del tipo Json.
 
