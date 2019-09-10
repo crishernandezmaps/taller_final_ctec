@@ -54,6 +54,13 @@ Lo que realiza cada uno de estos notebooks es tomar la data de ingreso (archivos
 ### Jupyter Notebooks
 Los datos de entrada están ya configurados para cada notebook de cada sección. Por ende, si existe algún nuevo datos que se quiera agregar, basta con respetar el formato de las tablas excel, subirlas a la carpeta antes mencionada ($ src > frontend > public) y ejecutar los notebooks. Para hacer correr la totalidad de funciones para los indicadores de cada sección, de debe presionar en cada notebook la opción ‘Cell > Run All’.
 
+#### Geocoding
+Pasos:
+- Crear una Key de Bing: https://www.bingmapsportal.com/ 
+- Editar el Notebook de Geocodificación 'LEED_CES_GeoCoding.ipynb' y ejecutarlo
+- Convertir CSV a GeoJson: http://www.convertcsv.com/csv-to-geojson.htm 
+- Transformar GeoJson resultantes al formato indicado utilizando el *script* funcion_geojson.py
+
 ### Deployment
 Los datos en la aplicación deben tener presencia en dos espacios para poder hacer un render de la visualización. Los datos deben estar presentes tanto en la carpeta ‘Data’ en la ruta $ src > frontend > public > data; tanto como en la carpeta ‘SmartData-Files/data’ en Digital Ocean. El que deban tener presencia en ambos espacios radica en que las visualizaciones, al mismo tiempo, trabajan en local y en la nube. El proceso de subida de datos a digital ocean es tan sencillo como arrastrar un archivo y configurar los permisos del mismo para que sea visible por el modulo de visualización.
 
