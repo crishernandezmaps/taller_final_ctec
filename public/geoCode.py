@@ -6,7 +6,7 @@ import json
 import warnings
 warnings.filterwarnings('ignore')
 
-bing_key = 'ginITT5ALcrOnA4aMoH0~_vGQBu-_tnKr6FYRj6U5nA~Ar9conblprRVoeaB4uH4PKMzcs0BfrUJ5LbspSyDn04UqCpCOfsm567DJjUw-PY6'
+bing_key = 'YOUR-KEY'
 
 def get_geocode(row):
     geolocator = Bing(bing_key, timeout=7)
